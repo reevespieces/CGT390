@@ -1,7 +1,7 @@
-import steven from "../assets/stevenimg.jpg";
-import david from "../assets/David.jpg";
+import steven from "../assets/stevenimg.jpg"
+import david from "../assets/David.jpg"
 
-const Card = (name, title, img) => {
+const Card = ({name, title, img}) => {
     return (
         <div className="card">
             <div className="card_img">

@@ -8,6 +8,10 @@ import steven from "./assets/stevenimg.jpg"
 import david from "./assets/David.jpg"
 
 function App() {
+  const profiles = [
+    {name: "Steven Bridges", title: "Web Developer", img: steven},
+    {name: "David Moore", title: "UX Designer", img: david}
+  ]
 
   return (
     <>
@@ -16,20 +20,20 @@ function App() {
       </header>
       <main>
       <h1>Profile App</h1>
-      <div className='section'>
+      <div className='section' id='about'>
         <div className='container'>
           <About />
         </div>
       </div>
-      <div className='section'>
-        <div className='container1'>
-          
-          <Card1 />
-        </div>
-      </div>
-      <div className='section'>
-        <div className='container2'>
-          <Card2 />
+      <div className='section' id="profiles">
+        <div className='container'>
+          <div className='flex-container'>
+            {
+              profiles.map((profile, index) => (
+                <Card key={index} name={profile.name} title={profile.title} img={profile.img} />
+              ))
+            }
+          </div>
         </div>
       </div>
     </main>
