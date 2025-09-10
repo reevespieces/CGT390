@@ -40,7 +40,6 @@
 .read-the-docs {
   color: #888;
 }
-<<<<<<< HEAD
 
 .topnav{
   position: fixed;
@@ -71,7 +70,6 @@
   float: left;
 }
 
-
 .container1,
 .container2 {
   width: 300px;
@@ -86,7 +84,6 @@
   text-align: center;
 }
 
-/* Image styling inside the containers */
 .container1 img,
 .container2 img {
   width: 100%;
@@ -94,7 +91,6 @@
   object-fit: cover;
 }
 
-/* Text styling */
 .container1 h2,
 .container2 h2 {
   margin: 10px 0 5px;
@@ -108,5 +104,3 @@
   color: #555;
 }
 
-=======
->>>>>>> d88d10e9345b89df22b0720b82268ea64fbd6635
