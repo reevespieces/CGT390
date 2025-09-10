@@ -3,6 +3,9 @@ import Card1 from './components/Card1'
 import About from './components/About'
 import Card2 from './components/Card2'
 import Navbar from './components/Navbar'
+import Card from './components/Card'
+import steven from "./assets/stevenimg.jpg"
+import david from "./assets/David.jpg"
 
 function App() {
 
@@ -12,7 +15,7 @@ function App() {
         <Navbar />
       </header>
       <main>
-      <h1>Profile</h1>
+      <h1>Profile App</h1>
       <div className='section'>
         <div className='container'>
           <About />
