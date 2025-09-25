@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Card from './components/Card'
 import steven from "./assets/stevenimg.jpg"
 import david from "./assets/David.jpg"
+import Wrapper from './components/Wrapper'
 
 function App() {
   const profiles = [
@@ -19,7 +20,9 @@ function App() {
         <Navbar />
       </header>
       <main>
+        <Wrapper>
       <h1>Profile App</h1>
+        </Wrapper>
       <div className='section' id='about'>
         <div className='container'>
           <About />
